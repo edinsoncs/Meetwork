@@ -1,0 +1,147 @@
+//Sass
+body
+	background: #fefefe
+
+.i--user
+	.description
+		background: #95a5a6!important
+		.details
+			color: white!important
+.article__Offert
+		&:hover
+			opacity: 0.85
+
+input[type='text'].times__chat
+	border-radius: 20px
+	font-size: 13px
+	font-family: 'Nunito Sans', sans-serif
+
+.btn-primary
+	background: #34d887!important
+	color: #fff!important
+	font-weight: 300
+	border: 1px solid transparent!important
+	font-family: 'Nunito Sans', sans-serif!important
+	font-size: 14px!important
+	&:focus
+		box-shadow: none!important
+	&:hover
+		background: #fff!important
+		color: #34d887!important	
+		border: 1px solid #34d887!important
+
+.btn-start-chat
+	text-align: center
+
+.chat__List--Dates
+	border-top: 1px solid #eee
+	border-bottom: 1px solid #eee
+	padding-top: 1em
+	padding-bottom: 1em
+
+.buttons__Offert
+	a.link
+		border: 1px solid #F9F9F9
+		padding: 5px 15px
+		color: #535353
+		text-transform: uppercase
+		font-size: 0.7em
+		&:last-child
+			font-weight: 800
+			background: #F9F9F9
+
+.meetwork__Icon
+	position: fixed
+	bottom: 1.5em
+	right: 1.5em
+	background: white
+	border: 1px solid #34D887
+	border-radius: 50%
+	padding: 0.8em
+	z-index: 99
+	cursor: pointer
+	img.is_img
+		width: 40px
+		display: block
+
+.meetwork__Chat
+	position: fixed
+	width: 370px
+	height: 605px
+	background: white
+	border-radius: 10px
+	bottom: 1.5em
+	right: 1.5em
+	z-index: 999
+	box-shadow: 0 16px 18px rgba(0,0,0,.2)
+	.meetwork__Chat--View
+		.chat__View--Header
+			background: #34D887
+			position: relative
+			border-top-left-radius: 10px
+			border-top-right-radius: 10px
+			.is__avatar
+				position: absolute
+				top: -1em
+				left: 0.8em
+				background: white
+				border-radius: 50%
+				padding: 0.5em
+				border: 1px solid #34D887
+			p.text
+				font-family: 'Raleway', sans-serif
+		.chat__View--List
+			height: 500px
+			overflow-y: scroll
+			.chat__List--Robot
+				.show
+					.description
+						background: rgb(233, 238, 244)
+						width: 70%
+						border-radius: 5px
+						.details
+							color: rgb(100, 100, 100)
+							min-height: 35px
+							word-wrap: break-word
+							border: 1px solid transparent
+							padding: 7px 14px
+							border-radius: 19px
+							font-size: 14px
+							font-weight: 300
+							line-height: 19px
+							font-family: 'Nunito Sans', sans-serif
+		.chat__View--Footer
+			.form
+				position: relative
+				.sendIS
+					position: absolute
+					right: 0.5em
+					top: 50%
+					margin-top: -0.8em
+				input[type='text']
+					border-radius: 20px
+					font-size: 13px
+					font-family: 'Nunito Sans', sans-serif
+					&:focus
+						box-shadow: none
+						border: 1px solid #34D887
+
+
+
+@media (min-width: 0px) and (max-width: 769px)
+	.meetwork__Chat
+		width: 100%
+		left: 0
+		right: 0
+		bottom: 0
+		height: 100%
+		top: 1.5em
+	.chat__View--List
+		position: absolute
+		height: 75%!important
+	.chat__View--Footer
+		position: absolute
+		bottom: 0
+		left: 0
+		right: 0
+	

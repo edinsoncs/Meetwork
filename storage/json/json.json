@@ -1,0 +1,103 @@
+[{
+    "type": "restaurantes",
+    "value": [
+    {
+        "id": 20,
+        "title": "Quitral",
+        "image": "https://s3.amazonaws.com/meetworks/medium/338/1561076578.jpg"
+
+    },
+    {
+        "id": 21,
+        "title": "Buenas Are",
+        "image": "https://s3.amazonaws.com/meetworks/medium/356/1570637687.png"
+    },
+    {
+        "id": 22,
+        "title": "Starbucks Reserve",
+        "image": "https://s3.amazonaws.com/meetworks/medium/353/1565056873.png"
+    },
+    {
+        "id": 23,
+        "title": "Almita. Pan ",
+        "image": "https://s3.amazonaws.com/meetworks/medium/351/1564598963.png"
+    }]
+},
+{
+    "type": "cafes",
+    "value": [
+    {
+        "id": 24,
+        "title": "Cafe Qui",
+        "image": "https://s3.amazonaws.com/meetworks/medium/338/1561076578.jpg"
+
+    },
+    {
+        "id": 25,
+        "title": "Cafe Buen",
+        "image": "https://s3.amazonaws.com/meetworks/medium/356/1570637687.png"
+    },
+    {
+        "id": 26,
+        "title": "Cafe Star",
+        "image": "https://s3.amazonaws.com/meetworks/medium/353/1565056873.png"
+    },
+    {
+        "id": 27,
+        "title": "Café YE",
+        "image": "https://s3.amazonaws.com/meetworks/medium/351/1564598963.png"
+    }]
+
+},
+{
+    "type": "bares",
+    "value": [
+    {
+        "id": 28,
+        "title": "Bar tral",
+        "image": "https://s3.amazonaws.com/meetworks/medium/338/1561076578.jpg"
+
+    },
+    {
+        "id": 29,
+        "title": "Barre",
+        "image": "https://s3.amazonaws.com/meetworks/medium/356/1570637687.png"
+    },
+    {
+        "id": 30,
+        "title": "StarBar",
+        "image": "https://s3.amazonaws.com/meetworks/medium/353/1565056873.png"
+    },
+    {
+        "id": 31,
+        "title": "AlmitaBar ",
+        "image": "https://s3.amazonaws.com/meetworks/medium/351/1564598963.png"
+    }]
+
+},
+{
+    "type": "locales",
+    "value": [
+    {
+        "id": 32,
+        "title": "Lot",
+        "image": "https://s3.amazonaws.com/meetworks/medium/338/1561076578.jpg"
+
+    },
+    {
+        "id": 33,
+        "title": "Local a",
+        "image": "https://s3.amazonaws.com/meetworks/medium/356/1570637687.png"
+    },
+    {
+        "id": 34,
+        "title": "Local b",
+        "image": "https://s3.amazonaws.com/meetworks/medium/353/1565056873.png"
+    },
+    {
+        "id": 35,
+        "title": "Local c ",
+        "image": "https://s3.amazonaws.com/meetworks/medium/351/1564598963.png"
+    }]
+
+}]
