@@ -17,6 +17,7 @@ Route::get('/', function () {
 
 Route::get('/', 'Frontend\FrontendController@index');
 Route::post('/new', 'Frontend\FrontendController@newConversation');
+Route::post('/save', 'Frontend\FrontendController@saveConversation');
 
 Route::match(['get', 'post'], '/botman', 'BotManController@handle');
 Route::get('/botman/tinker', 'BotManController@tinker');

@@ -2,85 +2,101 @@
 {
     "id": 20,
     "title": "Quitral",
-    "image": "https://s3.amazonaws.com/meetworks/medium/338/1561076578.jpg"
+    "image": "https://s3.amazonaws.com/meetworks/medium/338/1561076578.jpg",
+    "url": "https://meetwork.co/place/quitral"
 
 },
 {
     "id": 21,
     "title": "Buenas Are",
-    "image": "https://s3.amazonaws.com/meetworks/medium/356/1570637687.png"
+    "image": "https://s3.amazonaws.com/meetworks/medium/356/1570637687.png",
+    "url": "https://meetwork.co/place/quitral"
 },
 {
     "id": 22,
     "title": "Starbucks Reserve",
-    "image": "https://s3.amazonaws.com/meetworks/medium/353/1565056873.png"
+    "image": "https://s3.amazonaws.com/meetworks/medium/353/1565056873.png",
+    "url": "https://meetwork.co/place/quitral"
 },
 {
     "id": 23,
     "title": "Almita. Pan ",
-    "image": "https://s3.amazonaws.com/meetworks/medium/351/1564598963.png"
+    "image": "https://s3.amazonaws.com/meetworks/medium/351/1564598963.png",
+    "url": "https://meetwork.co/place/quitral"
 },
 {
     "id": 24,
     "title": "Cafe Qui",
-    "image": "https://s3.amazonaws.com/meetworks/medium/338/1561076578.jpg"
+    "image": "https://s3.amazonaws.com/meetworks/medium/338/1561076578.jpg",
+    "url": "https://meetwork.co/place/quitral"
 
 },
 {
     "id": 25,
     "title": "Cafe Buen",
-    "image": "https://s3.amazonaws.com/meetworks/medium/356/1570637687.png"
+    "image": "https://s3.amazonaws.com/meetworks/medium/356/1570637687.png",
+    "url": "https://meetwork.co/place/quitral"
 },
 {
     "id": 26,
     "title": "Cafe Star",
-    "image": "https://s3.amazonaws.com/meetworks/medium/353/1565056873.png"
+    "image": "https://s3.amazonaws.com/meetworks/medium/353/1565056873.png",
+    "url": "https://meetwork.co/place/quitral"
 },
 {
     "id": 27,
     "title": "Café YE",
-    "image": "https://s3.amazonaws.com/meetworks/medium/351/1564598963.png"
+    "image": "https://s3.amazonaws.com/meetworks/medium/351/1564598963.png",
+    "url": "https://meetwork.co/place/quitral"
 },
 {
     "id": 28,
     "title": "Bar tral",
-    "image": "https://s3.amazonaws.com/meetworks/medium/338/1561076578.jpg"
+    "image": "https://s3.amazonaws.com/meetworks/medium/338/1561076578.jpg",
+    "url": "https://meetwork.co/place/quitral"
 
 },
 {
     "id": 29,
     "title": "Barre",
-    "image": "https://s3.amazonaws.com/meetworks/medium/356/1570637687.png"
+    "image": "https://s3.amazonaws.com/meetworks/medium/356/1570637687.png",
+    "url": "https://meetwork.co/place/quitral"
 },
 {
     "id": 30,
     "title": "StarBar",
-    "image": "https://s3.amazonaws.com/meetworks/medium/353/1565056873.png"
+    "image": "https://s3.amazonaws.com/meetworks/medium/353/1565056873.png",
+    "url": "https://meetwork.co/place/quitral"
 },
 {
     "id": 31,
     "title": "AlmitaBar ",
-    "image": "https://s3.amazonaws.com/meetworks/medium/351/1564598963.png"
+    "image": "https://s3.amazonaws.com/meetworks/medium/351/1564598963.png",
+    "url": "https://meetwork.co/place/quitral"
 }
 ,
 {
     "id": 32,
     "title": "Lot",
-    "image": "https://s3.amazonaws.com/meetworks/medium/338/1561076578.jpg"
+    "image": "https://s3.amazonaws.com/meetworks/medium/338/1561076578.jpg",
+    "url": "https://meetwork.co/place/quitral"
 
 },
 {
     "id": 33,
     "title": "Local a",
-    "image": "https://s3.amazonaws.com/meetworks/medium/356/1570637687.png"
+    "image": "https://s3.amazonaws.com/meetworks/medium/356/1570637687.png",
+    "url": "https://meetwork.co/place/quitral"
 },
 {
     "id": 34,
     "title": "Local b",
-    "image": "https://s3.amazonaws.com/meetworks/medium/353/1565056873.png"
+    "image": "https://s3.amazonaws.com/meetworks/medium/353/1565056873.png",
+    "url": "https://meetwork.co/place/quitral"
 },
 {
     "id": 35,
     "title": "Local c ",
-    "image": "https://s3.amazonaws.com/meetworks/medium/351/1564598963.png"
+    "image": "https://s3.amazonaws.com/meetworks/medium/351/1564598963.png",
+    "url": "https://meetwork.co/place/quitral"
 }]

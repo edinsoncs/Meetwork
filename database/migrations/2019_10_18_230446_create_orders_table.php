@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class OrdersMessage extends Migration
+class CreateOrdersTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,15 +13,22 @@ class OrdersMessage extends Migration
      */
     public function up()
     {
-        Schema::create('orders_message', function (Blueprint $table) {
+        Schema::create('orders', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('text');
+            
+            //Aqui foreingkey api
+            $table->string('user_id');
+            $table->string('place_id');
+            //Aqui foreingkey api
+            $table->boolean('status');
 
             //Aqui foreingkey next continuo
-            $table->string('order_id');
+            $table->string('time_id');
             //Aqui foreingkey next continuo
-            //
-            $table->dateTime('created_at')->default('CURRENT_TIMESTAMP')->nullable()->change();
+            
+            $table->dateTime('updated_at');
+            
+            $table->dateTime('created_at');
         });
     }
 
@@ -32,6 +39,6 @@ class OrdersMessage extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('orders');
     }
 }

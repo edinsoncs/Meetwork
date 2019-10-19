@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class OrdersTime extends Migration
+class CreateOrdersTimesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,13 @@ class OrdersTime extends Migration
      */
     public function up()
     {
-        Schema::create('orderstime', function (Blueprint $table) {
+        Schema::create('orders_times', function (Blueprint $table) {
             $table->increments('id');
             $table->dateTime('date_now');
             $table->string('hour_start');
             $table->string('hour_end');
-            $table->dateTime('created_at')->default('CURRENT_TIMESTAMP')->nullable()->change();
+            $table->dateTime('created_at');
+            $table->dateTime('updated_at');
         });
     }
 
@@ -29,6 +30,6 @@ class OrdersTime extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('orders_times');
     }
 }
